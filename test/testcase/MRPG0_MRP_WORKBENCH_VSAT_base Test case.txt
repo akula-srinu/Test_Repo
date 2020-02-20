@@ -1,0 +1,7 @@
+select * from MRPG0_MRP_WORKBENCH_VSAT_base a where a.sugg_order_date >sysdate-100 and order_type = 'Purchase order' and transaction_id in ( 143059895, 143058648, 143058647)
+
+
+
+
+select * from mrpg0_mat_requirements_vsat a where A.MRP_ORDER_TYPE = 'Purchase order' and A.MRP_ORDER_NUMBER in 
+('4141357','4145985')

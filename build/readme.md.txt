@@ -1,0 +1,1 @@
+Views regeneration package directory.
